@@ -3,6 +3,22 @@
 Official Github repository for the benchmark datasets and codes in the paper: <br>
 *The Curse of CoT: On the Limitations of Chain-of-Thought in In-Context Learning* ([arXiv:2504.05081](https://arxiv.org/abs/2504.05081)).
 
+## Main Results*
+
+*Results averaged across 16 Large Language Models.
+
+| Dataset       | Direct Answering | CoT    | CoT tokens | React  | React tokens | ToT    | ToT tokens |
+|---------------|------------------|--------|------------|--------|--------------|--------|------------|
+| ARC           | **10.01**            | 7.50   | 914.04     | 6.34   | 955.76       | 6.99   | 1376.96    |
+| MiniARC       | **17.11**           | 10.36  | 419.75     | 8.69   | 663.37       | 8.85   | 233.47     |
+| 1DARC         | **41.30**            | 34.93  | 359.57     | 28.51  | 435.97       | 27.88  | 594.70     |
+| SCAN          | **62.79**            | 60.04  | 134.51     | 57.35  | 270.16       | 51.31  | 455.39     |
+| MiniSCAN      | **20.85**            | 17.32  | 239.99     | 15.72  | 330.14       | 15.42  | 554.62     |
+| COGS          | **19.73**            | 14.88  | 244.11     | 12.99  | 272.18       | 9.24   | 484.92     |
+| SALT          | **37.72**            | 34.15  | 175.99     | 31.06  | 316.41       | 27.25  | 492.73     |
+| List Function | **44.31**            | 38.29  | 305.49     | 34.84  | 310.73       | 31.25  | 486.49     |
+| RAVEN         | **16.94**            | 7.37   | 434.75     | 3.09   | 533.09       | 5.80   | 737.64     |
+| **Average**       | **30.08**            | 24.98  | 358.69     | 22.07  | 454.20       | 20.44  | 601.88     |
 
 ## Datasets
 
